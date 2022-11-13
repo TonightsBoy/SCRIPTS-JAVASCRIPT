@@ -9,3 +9,8 @@ var randomNumber = 0;
 
 var numQuestionsAsked = 0;
 var numCorrect = 0;
+
+
+function resetCardGame(){
+    previousCard = generateCard();
+    cardHTML.innerText = previousCard; 
