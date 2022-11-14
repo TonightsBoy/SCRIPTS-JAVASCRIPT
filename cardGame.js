@@ -18,3 +18,5 @@ function resetCardGame(){
     resultHTML.innerText = "You were: ";
     scoreHTML.innerText = "You've got " + numCorrect + "/" + numQuestionsAsked + " correct.";
 }
+
+function submitGuess(highLowGuess){
