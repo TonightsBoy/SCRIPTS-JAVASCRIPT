@@ -14,3 +14,7 @@ var numCorrect = 0;
 function resetCardGame(){
     previousCard = generateCard();
     cardHTML.innerText = previousCard; 
+
+    resultHTML.innerText = "You were: ";
+    scoreHTML.innerText = "You've got " + numCorrect + "/" + numQuestionsAsked + " correct.";
+}
