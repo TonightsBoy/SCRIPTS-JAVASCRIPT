@@ -22,3 +22,7 @@ function resetCardGame(){
 function submitGuess(highLowGuess){
     var newCard = generateCard();
     var correctGuess = guessCard(highLowGuess, newCard);
+    updateScores(correctGuess);
+    modifyCardGameHTML(correctGuess);
+    setPreviousCard(newCard);
+}
