@@ -26,3 +26,6 @@ function submitGuess(highLowGuess){
     modifyCardGameHTML(correctGuess);
     setPreviousCard(newCard);
 }
+
+function generateCard(){    
+    randomNumber = 0;
