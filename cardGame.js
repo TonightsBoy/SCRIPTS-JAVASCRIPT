@@ -29,3 +29,6 @@ function submitGuess(highLowGuess){
 
 function generateCard(){    
     randomNumber = 0;
+    var randomCard = 0;
+    
+    do{
