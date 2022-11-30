@@ -32,3 +32,6 @@ function generateCard(){
     var randomCard = 0;
     
     do{
+        randomNumber = Math.floor(Math.random() * possibleCards.length);
+        randomCard = possibleCards[randomNumber];
+    } while (previousCard === randomCard);
