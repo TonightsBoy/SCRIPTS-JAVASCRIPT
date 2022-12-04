@@ -35,3 +35,5 @@ function generateCard(){
         randomNumber = Math.floor(Math.random() * possibleCards.length);
         randomCard = possibleCards[randomNumber];
     } while (previousCard === randomCard);
+    
+    return randomCard
