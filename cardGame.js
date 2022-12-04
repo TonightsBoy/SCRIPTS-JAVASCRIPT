@@ -37,3 +37,6 @@ function generateCard(){
     } while (previousCard === randomCard);
     
     return randomCard
+}
+
+function guessCard(highLowGuess, newCard){
