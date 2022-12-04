@@ -40,3 +40,7 @@ function generateCard(){
 }
 
 function guessCard(highLowGuess, newCard){
+    var correctGuess;
+    
+    if(highLowGuess === "Higher"){        
+        if(newCard > previousCard){
