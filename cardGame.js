@@ -46,3 +46,6 @@ function guessCard(highLowGuess, newCard){
         if(newCard > previousCard){
             correctGuess = true;
         }
+        else {
+            correctGuess = false;
+        }
