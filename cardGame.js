@@ -49,3 +49,7 @@ function guessCard(highLowGuess, newCard){
         else {
             correctGuess = false;
         }
+    }
+    else if(highLowGuess === "Lower"){
+        if(newCard < previousCard){
+            correctGuess = true;
