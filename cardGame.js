@@ -57,3 +57,5 @@ function guessCard(highLowGuess, newCard){
         else {
             correctGuess = false;
         }
+    }
+    else {
