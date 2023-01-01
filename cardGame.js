@@ -67,3 +67,5 @@ function guessCard(highLowGuess, newCard){
 }
 
 function updateScores(correctGuess){
+    if(correctGuess){
+        numCorrect++;        
