@@ -64,3 +64,6 @@ function guessCard(highLowGuess, newCard){
     }
     
     return correctGuess;
+}
+
+function updateScores(correctGuess){
