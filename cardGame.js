@@ -62,3 +62,5 @@ function guessCard(highLowGuess, newCard){
         console.log("No guess provided");
         correctGuess = false;
     }
+    
+    return correctGuess;
