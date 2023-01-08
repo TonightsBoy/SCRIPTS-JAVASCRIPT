@@ -78,3 +78,7 @@ function modifyCardGameHTML(correctGuess){
     var resultString = "";
     
     if(correctGuess){
+        resultString = "Correct";
+    } else resultString = "Incorrect";
+    
+    resultHTML.innerText = "You were: " + resultString;
