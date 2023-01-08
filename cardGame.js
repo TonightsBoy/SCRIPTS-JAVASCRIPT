@@ -73,3 +73,8 @@ function updateScores(correctGuess){
     
     numQuestionsAsked++;
 }
+
+function modifyCardGameHTML(correctGuess){
+    var resultString = "";
+    
+    if(correctGuess){
