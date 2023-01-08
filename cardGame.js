@@ -70,3 +70,6 @@ function updateScores(correctGuess){
     if(correctGuess){
         numCorrect++;        
     }
+    
+    numQuestionsAsked++;
+}
