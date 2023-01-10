@@ -82,3 +82,4 @@ function modifyCardGameHTML(correctGuess){
     } else resultString = "Incorrect";
     
     resultHTML.innerText = "You were: " + resultString;
+    scoreHTML.innerText = "You've got " + numCorrect + "/" + numQuestionsAsked + " correct.";
