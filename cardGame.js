@@ -87,3 +87,7 @@ function modifyCardGameHTML(correctGuess){
 
 function setPreviousCard(newCard){
     previousCard = newCard;
+    cardHTML.innerText = previousCard;
+}
+
+resetCardGame();
