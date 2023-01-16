@@ -83,3 +83,7 @@ function modifyCardGameHTML(correctGuess){
     
     resultHTML.innerText = "You were: " + resultString;
     scoreHTML.innerText = "You've got " + numCorrect + "/" + numQuestionsAsked + " correct.";
+}
+
+function setPreviousCard(newCard){
+    previousCard = newCard;
